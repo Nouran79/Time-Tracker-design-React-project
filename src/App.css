@@ -1,38 +1,161 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#first_right{
+    background-color: blueviolet;
+    width: 40%;
+    height: 60%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+    font-family: Rubik;
+    background-color: rgb(3, 3, 36);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#boy{
+    width: 50%;
+    height: 60%;
+    border: 5px solid white;
+    border-radius: 50px;
 }
-
-.App-link {
-  color: #61dafb;
+.cards{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    /* justify-content: center; */
+    top: 0%;
+    left: 20%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#firstOneLeft{
+    width: 270px;
+    height:568px;
+    border-radius: 20px;
+    background-color: hsl(235, 46%, 20%);
+}
+#p1{
+    width: 190px;
+    height:300px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: hsl(246, 80%, 60%);
+}
+#p2{
+    color: rgba(240, 248, 255, 0.518);
+    font: caption;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 29px;
+    
+}
+#boyData{
+    position: absolute;
+    width: 80px;
+    top: 43%;
+}
+#l1{
+    color: rgba(240, 248, 255, 0.516);
+    font: caption;
+    margin-bottom: 0%;
+}
+#l2{
+    color: aliceblue;
+    font: caption;
+    font-size: 45px;
+    font-weight: 100;
+    margin-top: 0%;
+}
+#secondOneLeft1{
+    background-color: hsl(15, 100%, 70%);
+    width: 270px;
+    height: 250px;
+    border-radius: 20px;
+    margin-left: 35px;
+    margin-bottom: 35px;
+}
+#secondOneLeft2{
+    background-color: hsl(145, 58%, 55%);
+    width: 270px;
+    height: 250px;
+    border-radius: 20px;
+    margin-left: 35px;
+    margin-bottom: 35px;
+}
+#thirdOneLeft1{
+    background-color: hsl(195, 74%, 62%);
+    width: 270px;
+    height: 250px;
+    border-radius: 20px;
+    margin-left: 35px;
+    margin-bottom: 35px;
+}
+#thirdOneLeft2{
+    background-color: hsl(264, 64%, 52%);
+    width: 270px;
+    height: 250px;
+    border-radius: 20px;
+    margin-left: 35px;
+    margin-bottom: 35px;
+}
+#fourthOneLeft1{
+    background-color: hsl(348, 100%, 68%);
+    width: 270px;
+    height: 250px;
+    border-radius: 20px;
+    margin-left: 35px;
+    margin-bottom: 35px;
+}
+#fourthOneLeft2{
+    background-color: hsl(43, 84%, 65%);
+    width: 270px;
+    height: 250px;
+    border-radius: 20px;
+    margin-left: 35px;
+    margin-bottom: 35px;
+}
+.smallcard{
+    /* width: 270px; */
+    height:210px;
+    background-color:hsl(235, 46%, 20%) ;
+    border-radius: 20px;
+    position:relative;
+    bottom: 10%;
+}
+.data{
+    width: 100%;
+    padding: 30px;
+    color: aliceblue;
+    font: caption;
+}
+.title{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.hours{
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    /* font-family:Rubik; */
+}
+.lastActive{
+    margin-top: 10px;
+    color: rgba(240, 248, 255, 0.625);
+    font-weight: 300;
+}
+.svg{
+    position: relative;
+    left: 67%;
+}
+.svg2{
+    position: relative;
+    left: 67%;
+}
+.svg3{
+    position:relative;
+    left: 67%;
+}
+.ellipsis{
+    position: relative;
+    left: 80%;
+    top: 10%
 }
